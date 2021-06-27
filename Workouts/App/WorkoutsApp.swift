@@ -11,8 +11,7 @@ import SwiftUI
 struct WorkoutsApp: App {
     var body: some Scene {
         WindowGroup {
-            // ContentView(exercise: Exercise(name: "Rope Cable Pushdown", repetitions: 12, series: 3, weight: 10))
-            WelcomeView()
+            TrainingsListView(trainings: Training.examples)
         }
     }
 }
